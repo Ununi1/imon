@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e35606a94475f546b1c5cb52b6250a3, type: 3}
+  m_Name: PlayerState_Float
+  m_EditorClassIdentifier: 
+  stateName: Float
+  transitionDuration: 0.1
+  deathEventChannel: {fileID: 11400000, guid: f9bb74dff23a45b44a1ca20285877419, type: 2}
+  floatingSpeed: 0.5
+  floatingPosingOffset: {x: 0, y: 0, z: -1}
